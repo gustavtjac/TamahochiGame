@@ -15,6 +15,13 @@ public class Cat extends Tamagochi {
 public String sound(){
         return "MEEEEOOOOOOOOOOOOOOOOOOOOOOOOW";
 }
+    public void getMenu(){
+        System.out.println("1: Fodrer din kat");
+        System.out.println("2: Leg med din kat");
+        System.out.println("3. Få din kat til at sove");
+        System.out.println("4. Ignorer din kat");
+        System.out.println("5. Giv den et nakkeskud ;)");
+    }
 
 
 }

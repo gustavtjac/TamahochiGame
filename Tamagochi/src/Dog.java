@@ -15,6 +15,14 @@ public class Dog extends Tamagochi {
     public String sound(){
         return "Woof";
     }
+    public void getMenu(){
+        System.out.println("1: Fodrer din hund");
+        System.out.println("2: Leg med din hund");
+        System.out.println("3. Få din hund til at sove");
+        System.out.println("4. Ignorer din hund");
+        System.out.println("5. Giv den et nakkeskud ;)");
+    }
+
 
 
 }
